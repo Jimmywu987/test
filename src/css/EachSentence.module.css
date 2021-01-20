@@ -1,0 +1,28 @@
+.section{
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+.section div{
+    margin: 8px
+}
+.image_size1{
+    width: 100px;
+}
+.image_size2{
+    width: 200px;
+}
+.image_size3{
+    width: 80px;
+}
+img{
+ width: 100%;
+
+}
+
+@media (max-width: 980px){
+    .section{
+        margin: 0 15px;
+    }
+
+}

@@ -1,0 +1,37 @@
+.image_word{
+    display: flex;
+    align-items: flex-end;
+}
+.title{
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    color: #333333;
+    margin: 10px 0;
+}
+.lower {
+    max-width: 1150px;
+    margin: 15px auto;
+}
+
+.word{
+    text-align: center;
+    color: #595F5E;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 680px){
+    .title, .word{
+        text-align: left;
+        margin-left: 35px;
+    }
+
+    .row{
+        display: block;
+    }
+
+}

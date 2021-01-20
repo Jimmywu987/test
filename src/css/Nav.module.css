@@ -1,0 +1,102 @@
+.nav {
+    width: 100%;
+    height: 65px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    width: 169px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 80px;
+  }
+
+  .logo img{
+    width: 100%;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left div{
+    border-bottom: solid white 4px;
+    color: white;
+    margin: 0 12px
+   
+}
+
+.left div span{
+    border-bottom: solid #333333 7px;
+}
+.right{
+    display: flex;
+    color: white;
+    align-items: center
+
+}
+.left_to_logo{
+    display: flex;
+}
+
+.left button{
+    background: rgb(80,227,194);
+background: linear-gradient(312deg, rgba(80,227,194,1) 22%, rgba(0,166,168,1) 65%);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 12px;
+    border: none;
+    margin-left: 10px;
+}
+.right_logo{
+    width: 20px;
+    height: 20px;
+    margin: 0 12px;
+}
+.right_logo img{
+    width: 100%;
+}
+.word {
+    margin: 0 25px 0 10px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+.avatar img{
+    width: 100%;
+}
+.mobile{
+    display: none;
+}
+@media (max-width: 980px){
+    .mobile{
+        width: 100%;
+        height: 65px;
+        background-color: #303030;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo_mobile{
+        margin: 0 15px;
+        color: white;
+        width: 28px;
+    }
+    .logo_mobile img{
+        width: 100%;
+    }
+    .logo{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .nav{
+        display: none;
+    }
+
+}
+

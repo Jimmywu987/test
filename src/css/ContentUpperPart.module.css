@@ -1,0 +1,55 @@
+.upper_content{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: -85px;
+}
+.word{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 700;
+}
+.upper_content img{
+    position: absolute;
+    object-fit: cover;
+    height: 250px;
+}
+
+.upper_word{
+    color: #FF9E44;
+    font-size: 50px;
+    height: 74px;
+}
+
+.lower_word{
+    font-size: 30px;
+    height: 37px;
+    color:#595F5E;
+}
+
+@media (max-width: 980px){
+    .upper_word{
+        font-size: 35px;
+        width: 320px;
+        margin-left: 20px;
+    }
+    .word{
+        text-align: left;
+    }
+    .upper_content{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        margin-bottom: -85px;
+    }
+    .lower_word{
+        margin-top: 40px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    
+}

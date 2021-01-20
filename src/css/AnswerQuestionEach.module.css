@@ -1,0 +1,31 @@
+.image{
+    width: 30px;
+    margin: 0 10px;
+}
+.image img{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.keyword{
+    color: #FF9E44;
+}
+
+.sentence{
+    color:#595F5E;
+    margin: 20px;
+    font-weight: 300;
+}
+
+@media (max-width: 680px){
+
+    .row{
+        display: block;
+    }
+    .word{
+        width: initial !important;
+        margin-left: 20px !important;
+    }
+}
